@@ -36,7 +36,7 @@ Open Jenkins Dashboard → New Item → Freestyle Project
 
 source code mangement ->
 Select Git ->
-Enter your Repository URL (e.g., https://github.com/yourname/node-app.git)
+Enter your Repository URL (e.g., https://github.com/Sharayu1707/servless-photo-upload.git)
 
 post-build-action -> 03-install-dependency
 
