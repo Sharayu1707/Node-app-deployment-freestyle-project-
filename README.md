@@ -108,6 +108,32 @@ This project automates the deployment of a Node.js application using Jenkins Fre
 Jenkins pulls the source code from GitHub, installs dependencies using npm, and deploys the app on an Ubuntu-based AWS EC2 instance.
 The application runs continuously in the background using PM2, ensuring high availability even after restarts.
 
+## Advantages
+
+Simple to Set Up – Easy graphical interface; no scripting required.
+
+Beginner-Friendly – Great for learning CI/CD basics.
+
+Quick Configuration – Setup build steps like Git pull, npm install, and deploy in minutes.
+
+Supports Plugins – Can integrate with GitHub, Slack, AWS, etc.
+
+Customizable Build Steps – You can easily add shell commands or scripts.
+
+Good for Small Projects – Ideal for single-branch or standalone deployments.
+
+## Disadvantages
+
+Limited Scalability – Hard to manage complex pipelines or multiple environments.
+
+No Code-Based Pipeline – Lacks version control for pipeline configuration (unlike Jenkinsfile).
+
+Manual Maintenance – Each job must be configured separately.
+
+Error-Prone – Harder to debug or replicate builds across environments.
+
+Not Ideal for Large CI/CD Pipelines – Better to use Pipeline (Declarative or Scripted) for advanced automation.
+
 ## Outcome
 
 ✅ Automated build and deployment pipeline for Node.js app.
